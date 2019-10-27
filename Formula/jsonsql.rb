@@ -5,7 +5,7 @@ class Jsonsql < Formula
   sha256 "2949d24f32ef0621a107c28d757a8fb42802dd1824e9d0306d5ad8b64c0af22f"
 
   def install
-    prefix.install Dir["."]
+    prefix.install Dir["*"]
     bin.install_symlink prefix/"jsonsql"
   end
 end
