@@ -1,12 +1,11 @@
 class Jsonsql < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/tim-patterson/jsonsql/archive/v1.0.tar.gz"
-  sha256 "4c789f86a1c627bb9354412378a04a381f281b67558f9a0e66329ba554bfb0f4"
-
-  depends_on :java
+  desc "A simple cli to run sql against json"
+  homepage "https://github.com/tim-patterson/jsonsql"
+  url "https://github.com/tim-patterson/jsonsql/releases/download/v1.0.6/jsonsql.tar.gz"
+  sha256 "ad415b920707164a307226268fd3b8ee014df22a72afc370a2159182ecaa3026"
 
   def install
-    system "./gradlew package"
+    prefix.install Dir["."]
+    bin.install_symlink prefix/"jsonsql"
   end
 end
