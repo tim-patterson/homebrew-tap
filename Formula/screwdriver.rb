@@ -1,8 +1,8 @@
 class Screwdriver < Formula
   desc "A collection of small scripts to help with data/aws type tasks"
   homepage "https://github.com/tim-patterson/screwdriver"
-  url "https://github.com/tim-patterson/screwdriver/releases/download/v0.1.4/screwdriver.tar.gz"
-  sha256 "5d10a077059db9cc1165271c2a0e13c58862586c55820a3a5228e503470dd053"
+  url "https://github.com/tim-patterson/screwdriver/releases/download/v0.1.5/screwdriver.tar.gz"
+  sha256 "5e2411e83f94b84d8e07a179dd0896852fb53292f7c666ca5481891fabf57199"
 
   def install
     prefix.install Dir["screwdriver"]
