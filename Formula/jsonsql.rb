@@ -1,8 +1,8 @@
 class Jsonsql < Formula
   desc "A simple cli to run sql against json"
   homepage "https://github.com/tim-patterson/jsonsql"
-  url "https://github.com/tim-patterson/jsonsql/releases/download/v1.0.8/jsonsql.osx.tar.gz"
-  sha256 "fed61e0bf6562fef92b71d05dddd86e19b546570ceb46f4f5d591bcc93cb9582"
+  url "https://github.com/tim-patterson/jsonsql/releases/download/v1.0.9/jsonsql.osx.tar.gz"
+  sha256 "5b338c3eae130416c515c858db280ce50c91eeefb221e5abca5af497cea830b6"
 
   def install
     bin.install "jsonsql"
